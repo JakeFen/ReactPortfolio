@@ -1,0 +1,12 @@
+html,
+body,
+main, #root {
+  height: 100%;
+}
+
+$primary-color: #222;
+$secondary-color: #e6e6e6;
+
+@import "./nav";
+@import "./reset";
+@import "./home";
