@@ -7,14 +7,13 @@ import Contact from "./Pages/Contact/contact";
 import "./css/main.css";
 
 function App() {
-
   return (
     <Router>
       <main>
         <Nav />
-        <Route exact path="/" component={Home}/>
-        <Route exact path="/about" component={About}/>
-        <Route exact path="/contact" component={Contact}/>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
       </main>
     </Router>
   );
